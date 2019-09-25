@@ -50,7 +50,7 @@
                 .AddSaml("saml2", "saml2", options =>
                 {
                     options.SignInScheme = "saml2.cookies";
-                    options.IdentityProviderName = "stubidp.sustainsys";
+                    options.IdentityProviderName = "dev.appsphere.com";
                 });
 
             services.AddMvc();
